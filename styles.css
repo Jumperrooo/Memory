@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+body{
+    margin:0;
+    color: #218674;
+    background-color: #26272c;
+    font-family:Tilt Prism;
+}
+
+a:link {color: #218674; text-decoration: none;}
+a:visited {color: #209781; }
+a:active{color: #218674; }
+a:hover{ color: #efb330}
+
+h1{
+    font-size:5rem;
+    font-weight:lighter;
+    margin:3% 2.5% 0;
+    letter-spacing: 2rem;
+    word-spacing: 2rem;
+}
+header{
+    text-align:center;
+}
+p{
+    margin:3% 2.5% 5%;
+    font-size:2rem;
+}
+@media(max-width: 1480px){
+h1{
+    font: size 4rem; 
+    letter-spacing:1.5rem; 
+    word-spacing:1.5rem;}
+}
+@media(max-width: 1320px){
+    h1{
+        font: size 3rem; 
+        letter-spacing:1.25rem; 
+        word-spacing:1.25rem;}
+    }
+@media(max-width: 1250px){
+    h1{
+        font: size 2rem; 
+        letter-spacing:1rem; 
+        word-spacing:1rem;}
+    }
+@media(max-width: 1160px){
+    h1{
+        font: size 1.5rem; 
+        letter-spacing:0.9rem; 
+        word-spacing:0.9rem;}
+    }
+    
