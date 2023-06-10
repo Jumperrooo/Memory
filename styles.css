@@ -28,26 +28,38 @@ p{
 }
 @media(max-width: 1480px){
 h1{
-    font: size 4rem; 
     letter-spacing:1.5rem; 
     word-spacing:1.5rem;}
 }
 @media(max-width: 1320px){
     h1{
-        font: size 3rem; 
         letter-spacing:1.25rem; 
         word-spacing:1.25rem;}
     }
 @media(max-width: 1250px){
     h1{
-        font: size 2rem; 
         letter-spacing:1rem; 
         word-spacing:1rem;}
     }
 @media(max-width: 1160px){
     h1{
-        font: size 1.5rem; 
         letter-spacing:0.9rem; 
         word-spacing:0.9rem;}
     }
-    
+@media(max-width: 1125px){
+    h1{
+        letter-spacing:0.5rem; 
+        word-spacing:0.5rem;}
+    }  
+@media(max-width: 1000px){
+    h1{
+        font-size:4.75rem;
+        letter-spacing:0.4rem; 
+        word-spacing:0.2rem;}
+    }  
+@media(max-width: 920px){
+    h1{
+        font-size:4.5rem;
+        letter-spacing:0.4rem; 
+        word-spacing:0.1rem;}
+    } 
